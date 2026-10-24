@@ -1,0 +1,242 @@
+    body {
+          margin: 0;
+    }
+    .header {
+         background-color: rgb(8, 3, 75);
+         display: flex;
+         justify-content: space-between ;
+         align-items: center;
+        padding: 10px 20px ;
+
+    }
+    
+    .btn {
+     background-color: rgb(255, 4, 0);
+     border-radius: 15px;
+     padding: 5px 15px;
+     color: aliceblue;
+     border: none;
+    }
+
+    .site-title hr {
+    width: 50%;
+    border: none;
+    height: 3px;
+    background-color: rgba(92, 46, 46, 0.884);
+    margin: 5px auto 0;
+}
+
+
+.logo {
+     width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.header-links a {
+    color: aliceblue;
+        text-decoration: none;
+        font-size: 20px;
+    padding: 0 20px;
+      text-decoration: none;
+      border-radius: 20px;
+}
+
+.header-links a:hover{
+    background-color: rgb(75, 72, 72);
+}
+
+
+.site-title {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+
+.site-title h1 {
+    font-family: Georgia, serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    color:rgb(14, 13, 13);
+    letter-spacing: 2px;
+}
+
+.site-title p {
+    font-size: 12px;
+    font-weight: bold;
+    color: goldenrod;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+
+.landing-page {
+    background-color:rgb(8, 3, 75);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+color: white;
+border-radius: 0 0 100px 100px;
+}
+
+.landing-page-left-serction {
+ width: 450px;
+
+}
+
+
+.landing-page-shearch input {
+border-radius: 50px;
+border: none;
+height: 25px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+
+.landing-page-image-contanier img {
+border-radius:  30px;
+width: 250x;
+
+}
+
+.trending-container {
+padding: 25px 50px;
+}
+      .trending-container span {
+      color: red;
+      font-size:  25px;
+     
+      }
+
+
+.trending-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+} 
+
+.trending-header h1 {
+margin-top: 0%;
+font-size: 55px;
+
+}
+ 
+.card-info {
+display: flex;
+justify-content: space-between;
+padding: 5Px 25px;
+}
+
+.card  {
+width: 352px;
+background-color:rgb(175, 175, 175);
+border-radius: 30px;
+
+}
+
+
+
+
+.product-link {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+
+.collection-cards .card > .product-link > img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 30px 30px 0 0;
+    cursor: pointer;
+}
+
+
+.collection-cards .card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+}
+
+
+.collection-cards .card-name h1 {
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+
+.product-link img {
+    transition: transform 0.3s ease;
+}
+
+.product-link:hover img {
+    transform: scale(1.02);
+}
+
+
+.product-page {
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+    align-items: flex-start;
+}
+
+.product-image {
+    width: 60%;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.product-details {
+    flex: 1;
+    font-family: Arial, sans-serif;
+}
+
+.product-details h2 {
+    font-size: 25px;
+}
+
+.product-details p {
+    font-size: 18px;
+}
+
+.product-details label {
+    display: block;
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+
+.product-details input {
+    padding: 12px;
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+
+
+ (max-width: 600px) {
+    .product-page {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .product-image {
+        width: 100%;
+    }
+
+    .product-details label {
+        margin-top: 30px;
+    }
+}
+
+
+
